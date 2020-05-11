@@ -1,0 +1,9 @@
+n = int(input())
+count = 1
+i = 1
+while count <= n:
+   r = (3 * i) + 2
+   if r %4 != 0:
+      print(r, end = ' ')
+      count+=1
+   i+=1
